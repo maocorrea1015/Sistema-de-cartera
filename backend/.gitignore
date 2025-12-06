@@ -1,0 +1,32 @@
+venv
+# Archivos python / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entorno virtual alternativo
+.venv/
+venv/
+
+# Configs de entorno
+.env
+.env.* 
+
+# Bases de datos locales / archivos de desarrollo
+*.sqlite3
+*.db
+dev.db
+
+# IDEs / editores
+.vscode/
+.idea/
+
+# Tests / coverage / lint
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Sistema
+.DS_Store
+Thumbs.db
