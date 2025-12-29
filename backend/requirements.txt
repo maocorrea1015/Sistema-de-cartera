@@ -6,3 +6,8 @@ python-dotenv
 pydantic
 pydantic[email]
 alembic
+
+# JWT / security
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
